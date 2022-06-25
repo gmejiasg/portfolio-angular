@@ -1,0 +1,7 @@
+.fondo{
+    background-image: url("../../assets/Fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+}
