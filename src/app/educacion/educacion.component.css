@@ -1,0 +1,16 @@
+.text-negrita{
+    font-weight: 800;
+}
+.card-title > h5{
+    padding: 7px;
+    background-color: #46ca73;
+    width: 29%;
+    border-radius: 0 0 20px;
+    float: left;
+    text-align: center;
+}
+.card{
+    border-color: #46ca73;
+    border-width: 3px;
+    margin-bottom: 12px;
+}

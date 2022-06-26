@@ -1,14 +1,13 @@
 .card-title > h5 {
     padding: 7px;
-    background-color: #51f0cb;
+    background-color: #b7f051;
     width: 29%;
-    border-radius: 0 0 20px;
+    border-radius: 0 0 0 20px;
+    float: right;
+    text-align: center;
 }
 .card{
-    border-color: #51f0cb;
+    border-color: #b7f051;
     border-width: 3px;
     margin-bottom: 12px;
-}
-.img-cultura{
-    background-image: url("/src/assets/cultura.png");
 }
