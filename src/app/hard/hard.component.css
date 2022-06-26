@@ -1,0 +1,24 @@
+.card-title > h5 {
+    padding: 7px;
+    background-color: #4e629d;
+    width: 29%;
+    border-radius: 0 0 0 20px;
+    text-align: center;
+    float: right ;
+    color: #fff;
+}
+.card{
+    border-color: #4e629d;
+    border-width: 3px;
+    margin-bottom: 12px;
+}
+.skills{
+    text-align: right;
+    color: #fff;
+    padding: 4px;
+    border-radius: 0 23px 23px 0;
+}
+p{
+    margin: revert;
+    margin-bottom: 2px;
+}

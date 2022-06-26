@@ -3,13 +3,14 @@
 }
 .card-title > h5 {
     padding: 7px;
-    background-color: #51f0cb;
+    background-color: #8c1c07;
     width: 29%;
     border-radius: 0 0 20px;
     text-align: center;
+    color: #fff;
 }
 .card{
-    border-color: #51f0cb;
+    border-color: #8c1c07;
     border-width: 3px;
     margin-bottom: 12px;
 }
