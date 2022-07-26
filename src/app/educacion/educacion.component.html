@@ -3,32 +3,13 @@
         <h5>Educación</h5>
     </div>
     <div class="card-body">
-        <p>
-            <span class="text-negrita">Grado:</span>
-        </p>
-            <ul>
-                <li *ngFor="let data of data.grado">{{data}}</li>
-            </ul>
-
-        <p>
-            <span class="text-negrita">Maestría:</span>
-        </p>
-        <ul>
-            <li *ngFor="let data of data.postgrado">{{data}}</li>
-        </ul>     
-
-        <p>
-            <span class="text-negrita">Seminarios:</span>
-        </p>
-        <ul>
-            <li *ngFor="let data of data.seminarios">{{data}}</li>
-        </ul>
-
-        <p>
-            <span class="text-negrita">Talleres:</span>
-        </p>
-        <ul>
-            <li *ngFor="let data of data.talleres">{{data}}</li>
-        </ul>
+        <div *ngFor="let edu of data">
+            <p>
+                <span class="text-negrita">{{edu.nombre}}</span>
+            </p>
+                <ul>
+                    <li *ngFor="let data of edu.items">{{data}}</li>
+                </ul>
+        </div>
     </div>
 </article>

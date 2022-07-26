@@ -10,6 +10,9 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { EducacionComponent } from './educacion/educacion.component';
 import { PresentacionComponent } from './presentacion/presentacion.component';
 import { HardComponent } from './hard/hard.component';
+import { LoginComponent } from './login/login.component';
+import { PageComponent } from './page/page.component';
+import { ReactiveFormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -20,11 +23,14 @@ import { HardComponent } from './hard/hard.component';
     EducacionComponent,
     NavbarComponent,
     PresentacionComponent,
-    HardComponent
+    HardComponent,
+    LoginComponent,
+    PageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
