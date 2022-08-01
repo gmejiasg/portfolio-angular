@@ -13,6 +13,8 @@ import { HardComponent } from './hard/hard.component';
 import { LoginComponent } from './login/login.component';
 import { PageComponent } from './page/page.component';
 import { ReactiveFormsModule } from "@angular/forms";
+import { ProyectoComponent } from './proyecto/proyecto.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { ReactiveFormsModule } from "@angular/forms";
     PresentacionComponent,
     HardComponent,
     LoginComponent,
-    PageComponent
+    PageComponent,
+    ProyectoComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
